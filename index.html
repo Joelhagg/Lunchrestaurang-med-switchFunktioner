@@ -7,18 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div>
-        <h1>Idag är det <span id="dayOfTheWeek"></span></h1>
-        <h3>Kolla vad som serveras, skriv bara in dagen som du vill kolla</h3>
-    </div>
-    <div>
-        <input id="matInput" placeholder="tex. Tisdag" type="text">
-
-        <button onclick="matFunction()">Testa!</button>
-
-        <p id="matratten"></p>       
-    </div>
+    <div id="theDay"></div>
+    <div id="onTheMenu"></div>
+    <select id="dayList">
+        <option>-- Välj Dag --</option>
+    </select>
     
     <script src="./script.js"></script>
 </body>
