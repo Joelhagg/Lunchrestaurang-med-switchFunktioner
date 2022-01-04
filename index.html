@@ -7,19 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-
+    <div id="theDay"></div>
+    <div id="onTheMenu"></div>
+    <br>
+    <h4>Kolla vad det blir för mat i veckan</h4>
+    <select id="dayList">
+        <option>-- Välj Dag --</option>
+    </select>
+    <button id="btn">Knapp</button>
     <div>
-        <h1>Idag är det <span id="dayOfTheWeek"></span></h1>
-        <h3>Kolla vad som serveras, skriv bara in dagen som du vill kolla</h3>
+        <h3>Dagens mat</h3>
+        <div id="mealDiv"></div>
     </div>
-    <div>
-        <input id="matInput" placeholder="tex. Tisdag" type="text">
-
-        <button onclick="matFunction()">Testa!</button>
-
-        <p id="matratten"></p>       
-    </div>
-    
+   
     <script src="./script.js"></script>
 </body>
 </html>
